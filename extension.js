@@ -204,7 +204,8 @@ function convertMarkdownToHtml(filename, type, text) {
         var href = convertImgPath(src, filename);
         $(this).attr('src', href);
       });
-      return $.html();
+      return html;
+      // return $.html();
     };
   }
 
