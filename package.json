@@ -67,66 +67,6 @@
         "group": "markdown-pdf"
       }
     ],
-    "menus": {
-      "commandPalette": [
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.settings"
-        },
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.pdf"
-        },
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.html"
-        },
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.png"
-        },
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.jpeg"
-        },
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.all"
-        }
-      ],
-      "editor/context": [
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.settings",
-          "group": "markdown-pdf@1"
-        },
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.pdf",
-          "group": "markdown-pdf@2"
-        },
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.html",
-          "group": "markdown-pdf@3"
-        },
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.png",
-          "group": "markdown-pdf@4"
-        },
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.jpeg",
-          "group": "markdown-pdf@5"
-        },
-        {
-          "when": "resourceLangId == markdown",
-          "command": "extension.markdown-pdf.all",
-          "group": "markdown-pdf@6"
-        }
-      ]
-    },
     "configuration": {
       "type": "object",
       "title": "markdown-pdf configuration",
